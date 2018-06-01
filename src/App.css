@@ -1,0 +1,102 @@
+a {
+    opacity: 1;
+    transition: .3s ease;
+}
+
+a:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.page {
+    background: FEFEFE;
+}
+
+header {
+    display: block;
+    padding: 6em 3em;
+    padding-bottom: 3em;
+    background: #d9ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: block;
+    width: calc(100% - 96px);
+    background: white;
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 3em;
+    line-height: 3em;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0 48px;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, .2);
+    cursor: default;
+    position: fixed;
+    top: 0; left: 0;
+}
+
+header nav .nav {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header span li {
+    display: inline;
+    color: #CCC;
+    margin-right: .5em;
+}
+
+header span li::before {
+    content: '/';
+    margin-right: .5em;
+}
+
+header span li:first-child::before {
+    content: '';
+    margin-right: 0em;
+}
+
+header span li:last-child {
+    color: #888;
+}
+
+header h1 {
+    font-weight: bolder;
+    margin: .8em 0;
+    margin-top: .2em;
+    color: #333;
+}
+
+header small {
+    color: #666;
+}
+
+.content {
+    display: block;
+    padding: 2em 3em;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 5em;
+    font-size: .8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #999;
+}
+
+footer a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-decoration: none;
+    font-weight: bolder;
+}
